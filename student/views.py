@@ -5,7 +5,7 @@ from django.http import HttpResponse
 def home(request):
     data={
         'name':"abc",
-        'age':17,
+        'age':19,
         'department':"BCA"
     }
     marks=[100,98,97]
